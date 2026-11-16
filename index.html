@@ -1,0 +1,588 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#080812">
+    <title>WEBNIX | Creative Digital Studio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="Screenshot 2026-11-16 171950.png">
+<script src="https://unpkg.com/lucide@0.468.0/dist/umd/lucide.min.js"></script>    <script src="script.js" defer></script>
+</head>
+<!-- Social Floating Buttons -->
+<div class="social-floating">
+
+<a href="https://wa.me/201274550027"
+   class="social-btn whatsapp"
+   target="_blank"
+   aria-label="WhatsApp">
+
+    <svg viewBox="0 0 24 24" width="27" height="27"
+         fill="white" xmlns="http://www.w3.org/2000/svg">
+        <path d="M20.52 3.48A11.87 11.87 0 0 0 12.08 0C5.52 0 .18 5.34.18 11.9c0 2.1.55 4.15 1.6 5.96L.08 24l6.3-1.65a11.9 11.9 0 0 0 5.7 1.45h.01c6.56 0 11.9-5.34 11.9-11.9a11.83 11.83 0 0 0-3.47-8.42ZM12.09 21.8a9.9 9.9 0 0 1-5.05-1.38l-.36-.21-3.74.98 1-3.65-.24-.37a9.87 9.87 0 1 1 8.39 4.63Zm5.42-7.4c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.25-.46-2.38-1.46-.88-.78-1.47-1.75-1.64-2.05-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.49s1.07 2.89 1.22 3.09c.15.2 2.1 3.2 5.08 4.48.71.31 1.26.5 1.69.64.71.23 1.36.2 1.87.12.57-.09 1.76-.72 2.01-1.42.25-.7.25-1.3.17-1.42-.07-.13-.27-.2-.57-.35Z"/>
+    </svg>
+
+</a>
+    <!-- TikTok -->
+<a href="https://www.tiktok.com/@webnix55?is_from_webapp=1&sender_device=pc"
+   class="social-btn tiktok"
+   target="_blank"
+   aria-label="TikTok">
+
+    <svg viewBox="0 0 24 24" width="27" height="27"
+         fill="white" xmlns="http://www.w3.org/2000/svg">
+        <path d="M19.59 6.69a4.83 4.83 0 0 1-4.77-4.77V1h-3.86v15.8a2.9 2.9 0 1 1-2.9-2.9c.3 0 .59.05.87.14v-3.95a6.8 6.8 0 1 0 5.89 6.71V8.72a8.7 8.7 0 0 0 5.08 1.63V6.69h-.31Z"/>
+    </svg>
+
+</a>
+<a href="https://www.instagram.com/youssefwael750/?hl=ar"
+   class="social-btn instagram"
+   target="_blank"
+   aria-label="Instagram">
+
+    <svg viewBox="0 0 24 24" width="27" height="27"
+         fill="none" stroke="white" stroke-width="2"
+         stroke-linecap="round" stroke-linejoin="round"
+         xmlns="http://www.w3.org/2000/svg">
+        <rect x="3" y="3" width="18" height="18" rx="5"/>
+        <circle cx="12" cy="12" r="4"/>
+        <circle cx="17.5" cy="6.5" r="0.8" fill="white" stroke="none"/>
+    </svg>
+
+</a>
+
+</div>
+<body>
+
+    <div class="cursor-glow"></div>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <a href="#home" class="logo">WEBNIX<span>.</span></a>
+
+        <nav class="nav-links" id="navLinks">
+            <a href="#home" data-en="Home" data-ar="الرئيسية">Home</a>
+            <a href="#about" data-en="About" data-ar="من نحن">About</a>
+            <a href="#work" data-en="Projects" data-ar="مشاريعنا">Projects</a>
+            <a href="#services" data-en="Services" data-ar="خدماتنا">Services</a>
+            <a href="#contact" data-en="Contact" data-ar="تواصل معنا">Contact</a>
+        </nav>
+
+        <div class="nav-actions">
+            <a href="#contact" class="nav-cta">
+                <span data-en="Start a Project" data-ar="ابدأ مشروعك">Start a Project</span>
+                <i data-lucide="arrow-up-right"></i>
+            </a>
+            <button class="menu-btn" id="menuBtn">
+                <i data-lucide="menu"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+
+        <div class="hero-grid"></div>
+
+        <div class="hero-content reveal">
+
+            <div class="availability">
+                <span class="status-dot"></span>
+                <span data-en="Available for new projects"
+                      data-ar="متاحون لمشاريع جديدة">
+                    Available for new projects
+                </span>
+            </div>
+
+            <p class="eyebrow">CREATIVE DIGITAL STUDIO</p>
+
+            <h1>
+                <span data-en="We Build" data-ar="نصنع">We Build</span>
+                <span class="gradient-text"
+                      data-en="Digital Experiences."
+                      data-ar="تجارب رقمية استثنائية.">
+                    Digital Experiences.
+                </span>
+            </h1>
+
+            <p class="hero-description"
+               data-en="We transform your ideas into modern, creative and powerful websites that help your business grow."
+               data-ar="نحول أفكارك إلى مواقع إلكترونية عصرية ومميزة تساعد مشروعك على النمو والنجاح.">
+                We transform your ideas into modern, creative and powerful websites that help your business grow.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#work" class="btn-primary">
+                    <span data-en="Explore Our Work" data-ar="اكتشف أعمالنا">Explore Our Work</span>
+                    <i data-lucide="arrow-up-right"></i>
+                </a>
+
+                <a href="#contact" class="btn-secondary"
+                   data-en="Let's Talk" data-ar="تواصل معنا">
+                    Let's Talk
+                </a>
+            </div>
+
+            <div class="hero-stats">
+                <div>
+                    <strong>03<span>+</span></strong>
+                    <small data-en="Projects" data-ar="مشاريع">Projects</small>
+                </div>
+
+                <div>
+                    <strong>100<span>%</span></strong>
+                    <small data-en="Creativity" data-ar="إبداع">Creativity</small>
+                </div>
+
+                <div>
+                    <strong>24<span>/7</span></strong>
+                    <small data-en="Digital Presence" data-ar="حضور رقمي">Digital Presence</small>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- 3D VISUAL -->
+        <div class="hero-visual reveal">
+
+            <div class="visual-glow"></div>
+
+            <div class="orbit orbit-one"></div>
+            <div class="orbit orbit-two"></div>
+            <div class="orbit orbit-three"></div>
+
+            <div class="core-3d" id="core3d">
+                <div class="cube-face front">W</div>
+                <div class="cube-face back">E</div>
+                <div class="cube-face right">B</div>
+                <div class="cube-face left">N</div>
+                <div class="cube-face top">I</div>
+                <div class="cube-face bottom">X</div>
+            </div>
+
+            <div class="floating-card card-one">
+                <i data-lucide="code-2"></i>
+                <span>Clean Code</span>
+            </div>
+
+            <div class="floating-card card-two">
+                <i data-lucide="layers"></i>
+                <span>Modern Design</span>
+            </div>
+
+            <div class="floating-card card-three">
+                <i data-lucide="zap"></i>
+                <span>High Performance</span>
+            </div>
+
+        </div>
+
+        <a href="#about" class="scroll-indicator">
+            SCROLL TO EXPLORE ↓
+        </a>
+
+    </section>
+
+    <!-- MARQUEE -->
+    <div class="marquee">
+        <div class="marquee-track">
+            <span>DESIGN ✳</span>
+            <span>DEVELOPMENT ✳</span>
+            <span>CREATIVITY ✳</span>
+            <span>INNOVATION ✳</span>
+            <span>DESIGN ✳</span>
+            <span>DEVELOPMENT ✳</span>
+            <span>CREATIVITY ✳</span>
+            <span>INNOVATION ✳</span>
+        </div>
+    </div>
+
+    <!-- ABOUT -->
+    <section class="section about-section" id="about">
+
+        <div class="section-heading reveal">
+            <span class="section-tag">01 / ABOUT US</span>
+
+            <h2 data-en="Big Ideas. Bigger Experiences."
+                data-ar="أفكار كبيرة. تجارب أكبر.">
+                Big Ideas.<br>Bigger Experiences.
+            </h2>
+        </div>
+
+        <div class="about-content">
+
+            <div class="about-symbol reveal">
+                <div class="symbol-ring">
+                    <span>W</span>
+                </div>
+                <p>CREATIVE MINDS / DIGITAL FUTURE</p>
+            </div>
+
+            <div class="about-text reveal">
+
+                <h3 data-en="We are WEBNIX, where creativity meets technology."
+                    data-ar="نحن WEBNIX، حيث يلتقي الإبداع بالتكنولوجيا.">
+                    We are WEBNIX, where creativity meets technology.
+                </h3>
+
+                <p data-en="We are a creative web development studio focused on building modern digital experiences. We combine design, technology and creativity to turn ideas into reality."
+                   data-ar="WEBNIX استوديو متخصص في تصميم وتطوير المواقع الإلكترونية. نجمع بين التصميم والتكنولوجيا والإبداع لتحويل أفكارك إلى واقع.">
+                    We are a creative web development studio focused on building modern digital experiences.
+                </p>
+
+                <a href="#contact" class="text-link">
+                    <span data-en="Let's work together" data-ar="لنعمل معاً">Let's work together</span>
+                    →
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section work-section" id="work">
+
+        <div class="section-heading reveal">
+            <span class="section-tag">02 / SELECTED WORK</span>
+
+            <h2 data-en="Our Creative Projects."
+                data-ar="مشاريعنا الإبداعية.">
+                Our Creative Projects.
+            </h2>
+
+            <p data-en="A selection of projects built with passion."
+               data-ar="مجموعة من المشاريع التي نفذناها بشغف.">
+                A selection of projects built with passion.
+            </p>
+        </div>
+
+        <div class="projects-grid">
+
+            <!-- REAL ESTATE -->
+            <article class="project-card project-large reveal">
+
+                <a href="https://youssefjo100.github.io/el-wael-real-estate/"
+                   target="_blank" class="project-image real-estate">
+
+                    <div class="estate-preview">
+                        <span>EL-WAEL REAL ESTATE</span>
+                        <h3>FIND YOUR<br>NEW HOME.</h3>
+                        <div class="estate-line"></div>
+                        <small>REAL ESTATE / EGYPT</small>
+                    </div>
+
+                    <span class="project-open">↗</span>
+                </a>
+
+                <div class="project-info">
+                    <div>
+                        <span>01 / REAL ESTATE</span>
+                        <h3>El-Wael Real Estate</h3>
+                    </div>
+                    <span>Business Website</span>
+                </div>
+
+            </article>
+
+            <!-- GYM -->
+            <article class="project-card reveal">
+
+                <a href="https://youssefjo100.github.io/GymWEArs/"
+                   target="_blank" class="project-image gym-project">
+
+                    <div class="gym-preview">
+                        <span>GYM / FITNESS</span>
+                        <h3>BE<br>STRONGER.</h3>
+                        <small>TRAIN HARD. STAY FOCUSED.</small>
+                    </div>
+
+                    <span class="project-open">↗</span>
+                </a>
+
+                <div class="project-info">
+                    <div>
+                        <span>02 / FITNESS</span>
+                        <h3>Gym Landing Page</h3>
+                    </div>
+                    <span>Landing Page</span>
+                </div>
+
+            </article>
+       <!-- NOOT -->
+            <article class="project-card reveal">
+
+                <a href="https://ahmedgaber20006.github.io/NootDelivery/"
+                   target="_blank" class="project-image NOOT-project">
+
+                    <div class="NOOT-preview">
+                        <span>Delivery Service
+</span>
+                        <h3>NOOT</h3>
+                        <small>ONR TEAM .. ONE GOAL</small>
+                    </div>
+
+                    <span class="project-open">↗</span>
+                </a>
+
+                <div class="project-info">
+                    <div>
+                        <span>02 / DRLIVERY</span>
+                        <h3>noot Landing Page</h3>
+                    </div>
+                    <span>Landing Page</span>
+                </div>
+
+            </article>
+
+            <!-- CALCULATOR -->
+            <article class="project-card reveal">
+
+                <a href="https://ahmedgaber20006.github.io/Teacher-landing-page/"
+                   target="_blank" class="project-image calculator-project">
+
+                    <div class="calculator-preview">
+                        <span>Teachers </span>
+                        <h3>math</h3>
+                        <p>∫ f(x) dx</p>
+                        <div class="calc-buttons">
+                            <span>+</span>
+                            <span>−</span>
+                            <span>×</span>
+                            <span>÷</span>
+                        </div>
+                    </div>
+
+                    <span class="project-open">↗</span>
+                </a>
+
+                <div class="project-info">
+                    <div>
+                        <span>03 /TEACHING</span>
+                        <h3>Curated learning paths</h3>
+                    </div>
+                    <span>Landing Page</span>
+                </div>
+
+            </article>
+
+        </div>
+
+    </section>
+
+    <!-- SERVICES -->
+    <section class="section services-section" id="services">
+
+        <div class="section-heading reveal">
+            <span class="section-tag">03 / OUR SERVICES</span>
+            <h2 data-en="What We Do."
+                data-ar="ماذا نقدم؟">
+                What We Do.
+            </h2>
+        </div>
+
+        <div class="services-list">
+
+            <div class="service-item reveal">
+                <span>01</span>
+                <div class="service-icon"><i data-lucide="monitor"></i></div>
+                <div>
+                    <h3 data-en="Website Design & Development"
+                        data-ar="تصميم وتطوير المواقع">
+                        Website Design & Development
+                    </h3>
+                    <p data-en="Modern and responsive websites for your business."
+                       data-ar="مواقع عصرية ومتوافقة مع جميع الأجهزة لمشروعك.">
+                        Modern and responsive websites for your business.
+                    </p>
+                </div>
+                <i data-lucide="arrow-up-right"></i>
+            </div>
+
+            <div class="service-item reveal">
+                <span>02</span>
+                <div class="service-icon"><i data-lucide="panels-top-left"></i></div>
+                <div>
+                    <h3>Landing Pages</h3>
+                    <p data-en="High-converting landing pages for your products and services."
+                       data-ar="صفحات هبوط احترافية لمنتجاتك وخدماتك.">
+                        High-converting landing pages for your products and services.
+                    </p>
+                </div>
+                <i data-lucide="arrow-up-right"></i>
+            </div>
+
+            <div class="service-item reveal">
+                <span>03</span>
+                <div class="service-icon"><i data-lucide="shopping-bag"></i></div>
+                <div>
+                    <h3 data-en="E-Commerce Websites"
+                        data-ar="المتاجر الإلكترونية">
+                        E-Commerce Websites
+                    </h3>
+                    <p data-en="Beautiful online stores with a smooth shopping experience."
+                       data-ar="متاجر إلكترونية بتصميم مميز وتجربة شراء سهلة.">
+                        Beautiful online stores with a smooth shopping experience.
+                    </p>
+                </div>
+                <i data-lucide="arrow-up-right"></i>
+            </div>
+
+            <div class="service-item reveal">
+                <span>04</span>
+                <div class="service-icon"><i data-lucide="zap"></i></div>
+                <div>
+                    <h3 data-en="Website Optimization"
+                        data-ar="تحسين المواقع">
+                        Website Optimization
+                    </h3>
+                    <p data-en="Speed, performance and user experience improvements."
+                       data-ar="تحسين سرعة الموقع والأداء وتجربة المستخدم.">
+                        Speed, performance and user experience improvements.
+                    </p>
+                </div>
+                <i data-lucide="arrow-up-right"></i>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- PROCESS -->
+    <section class="section process-section">
+
+        <div class="section-heading reveal">
+            <span class="section-tag">04 / OUR PROCESS</span>
+            <h2 data-en="From Idea To Reality."
+                data-ar="من الفكرة إلى الواقع.">
+                From Idea To Reality.
+            </h2>
+        </div>
+
+        <div class="process-grid">
+
+            <div class="process-card reveal">
+                <span>01</span>
+                <i data-lucide="lightbulb"></i>
+                <h3 data-en="Discovery" data-ar="فهم الفكرة">Discovery</h3>
+                <p data-en="Understanding your goals and vision."
+                   data-ar="نفهم أهدافك ورؤيتك للمشروع.">
+                    Understanding your goals and vision.
+                </p>
+            </div>
+
+            <div class="process-card reveal">
+                <span>02</span>
+                <i data-lucide="pen-tool"></i>
+                <h3 data-en="Design" data-ar="التصميم">Design</h3>
+                <p data-en="Creating a unique visual experience."
+                   data-ar="نصمم تجربة بصرية مميزة.">
+                    Creating a unique visual experience.
+                </p>
+            </div>
+
+            <div class="process-card reveal">
+                <span>03</span>
+                <i data-lucide="code-2"></i>
+                <h3 data-en="Development" data-ar="التطوير">Development</h3>
+                <p data-en="Building your website with clean code."
+                   data-ar="نطور موقعك بكود احترافي ومنظم.">
+                    Building your website with clean code.
+                </p>
+            </div>
+
+            <div class="process-card reveal">
+                <span>04</span>
+                <i data-lucide="rocket"></i>
+                <h3 data-en="Launch" data-ar="الإطلاق">Launch</h3>
+                <p data-en="Testing and launching your website."
+                   data-ar="نختبر الموقع ونجهزه للنشر.">
+                    Testing and launching your website.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section contact-section" id="contact">
+
+        <div class="contact-content reveal">
+
+            <span class="section-tag">05 / LET'S TALK</span>
+
+            <h2 data-en="Have An Idea?<br>Let's Build It."
+                data-ar="عندك فكرة؟<br>خلينا ننفذها.">
+                Have An Idea?<br>Let's Build It.
+            </h2>
+
+            <p data-en="Tell us about your next project and let's create something amazing together."
+               data-ar="احكيلنا عن مشروعك القادم وخلينا نعمل حاجة مميزة مع بعض.">
+                Tell us about your next project and let's create something amazing together.
+            </p>
+
+            <form id="contactForm">
+
+                <input type="text" id="clientName"
+                       placeholder="Your Name" required>
+
+                <input type="email" id="clientEmail"
+                       placeholder="Your Email">
+
+                <select id="projectType">
+                    <option value="Business Website">Business Website</option>
+                    <option value="Landing Page">Landing Page</option>
+                    <option value="E-Commerce">E-Commerce</option>
+                    <option value="Other">Other</option>
+                </select>
+
+                <textarea id="projectDetails"
+                          placeholder="Tell us about your project..."
+                          required></textarea>
+
+                <button type="submit" class="btn-primary">
+                    <span data-en="Send Your Request"
+                          data-ar="أرسل طلبك">
+                        Send Your Request
+                    </span>
+                    <i data-lucide="arrow-up-right"></i>
+                </button>
+
+            </form>
+
+        </div>
+
+        <div class="contact-orb">
+            <div>W<span>.</span></div>
+        </div>
+
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+
+        <div class="footer-top">
+            <a href="#home" class="logo">WEBNIX<span>.</span></a>
+
+            <p data-en="Building the future, one website at a time."
+               data-ar="نبني المستقبل، موقعاً بعد موقع.">
+                Building the future, one website at a time.
+            </p>
+
+            <a href="#home" class="back-top">↑</a>
+        </div>
+
+        <div class="footer-bottom">
+            <span>© <span id="year"></span> WEBNIX. All Rights Reserved.</span>
+            <span>DESIGNED & DEVELOPED WITH PASSION.</span>
+        </div>
+
+    </footer>
+
+</body>
+</html>
